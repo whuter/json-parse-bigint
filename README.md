@@ -31,9 +31,6 @@ import JsonParseBigInt from 'json-parse-bigint'
 ```javascript
 var json = '{ "id": 298295614833079897, "name": "test", "is_liked": 1 }';
 console.log(JSON.parse(json)); // {id: 298295614833079900, name: "test", is_liked: 1}
-// Use in browser
-console.log(jsonParseBigInt(json)); // {id: "298295614833079897", name: "test", is_liked: 1}
-// Use in Node.js
 console.log(JsonParseBigInt(json)); // {id: "298295614833079897", name: "test", is_liked: 1}
 // Use Globally
 JSON.parse = JsonParseBigInt
