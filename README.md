@@ -35,6 +35,7 @@ console.log(JsonParseBigInt(json)); // {id: "298295614833079897", name: "test", 
 // Use Globally
 JSON.parse = JsonParseBigInt
 console.log(JSON.parse(json)); // {id: "298295614833079897", name: "test", is_liked: 1}
+
 // Someone try to confuse
 var json = '{ "id": 298295614833079897, "name": "\\"test\\": 298295614833079897, ", "is_liked": 1 }';
 // No Problem :)
