@@ -1,4 +1,4 @@
-var jsonParseBigInt = (function () {
+var JsonParseBigInt = (function () {
   var jsonParse = JSON.parse
   return function parse(str, reviver) {
     // If there is no big integer, Use native JSON.parse
@@ -29,5 +29,5 @@ var jsonParseBigInt = (function () {
   }
 })()
 if (typeof module !== 'undefined' && module && module.exports) {
-  module.exports = jsonParseBigInt
+  module.exports = JsonParseBigInt
 }
