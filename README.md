@@ -1,5 +1,5 @@
 # json-parse-bigint
-convert all the big integers to string in JSON before JSON.parse
+convert all the big integers (≥ 16 digits) to string in JSON before JSON.parse
 
 ## Features
 Simple, No dependencies, Less than 1KB
