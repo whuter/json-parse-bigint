@@ -2,7 +2,7 @@
 convert all the big integers (≥ 16 digits) to string in JSON before JSON.parse
 
 ## Features
-Simple, No dependencies, Less than 1KB
+Simple, No dependencies, Less than 1KB, based on native JSON.parse
 
 ## Install
 Browser:
